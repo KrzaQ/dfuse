@@ -9,11 +9,6 @@
     "configurations": [{
         "name": "dfuse",
         "targetType": "library",
-        "platforms": ["osx"],
-        "libs": ["osxfuse_i32"]
-    }, {
-        "name": "dfuse",
-        "targetType": "library",
         "platforms": ["linux"],
         "libs": ["fuse"]
     }]
